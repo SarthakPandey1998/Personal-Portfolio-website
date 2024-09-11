@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ==================FAVICON================== -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+
+    <!-- ==================REMIX ICONS================== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- ==================CSS================== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ================TYPED JS================ -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!-- ================HEADER================ -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Sarthak <span>Pandey</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ===============MAIN================ -->
+    <main class="main">
+        <!-- ===============HOME================ -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Hello, <span>I'm</span>
+                        </h3>
+                        <h1 class="home__title">Sarthak Pandey</h1>
+
+                        <h3 class="home__education"><span id="typing"></span> </h3>
+
+                        <p class="home__description">
+                            With Knowledge in web development and design, I offer the best projects resulting in quality
+                            work.
+                        </p>
+                        <a href="assets/docs/Resume_SarthakPandey.pdf" class="button" download="Sarthak_Resume.pdf">Resume <i class="ri-download-2-line"></i></a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://github.com/SarthakPandey1998" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/sarthak-pandey-246213196/" target="_blank"
+                            class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://wa.me/8299195743" target="_blank" class="home__social-link">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <svg class="home__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Define the blob shape -->
+                        <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" 
+                             />
+                
+                        <!-- Apply the mask to the image -->
+                        <mask id="maskBlob" mask-type="alpha">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                    170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                    447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                    587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                    438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+                        </mask>
+                        
+                        <!-- Apply the image using the mask -->
+                        <g mask="url(#maskBlob)">
+                            <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern0)" />
+                        </g>
+                        <rect x="0" width="0" height="100%" fill="url(#pattern1)" />
+                        <defs>
+                            <!-- Define the pattern with the image -->
+                            <pattern id="pattern0" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                <image class="home__img" href="assets/img/file.png" width="550" height="591" preserveAspectRatio="xMidYMid slice" />
+                            </pattern>
+                        </defs>
+                    </svg>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <!-- ===============ABOUT================ -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h3 class="section__subtitle">
+                        My <span>Intro</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        About Me
+                    </h2>
+
+                    <p class="about__description">
+                        Frontend developer, I create webpages with UI / UX user interface, I have two years of
+                        experience and have worked on multiple projects in previous companies.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+
+                <div class="about__image">
+                    <svg class="about__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Define the blob shape -->
+                        <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" 
+                                 />
+                
+                        <!-- Apply the mask to the image -->
+                        <mask id="maskBlob" mask-type="alpha">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                    170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                    447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                    587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                    438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+                        </mask>
+                        
+                        <!-- Apply the image using the mask -->
+                        <g mask="url(#maskBlob)">
+                            <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern0)" />
+                        </g>
+                        <rect x="0" width="0" height="100%" fill="url(#pattern1)" />
+                        <defs>
+                            <!-- Define the pattern with the image -->
+                            <pattern id="pattern0" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                                <image class="home__img" href="assets/img/file.png" width="550" height="591" preserveAspectRatio="xMidYMid slice" />
+                            </pattern>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===============SKILLS================ -->
+        <section class="skills section">
+            <div class="skills__container container grid">
+                <div class="skills__data">
+                    <h3 class="section__subtitle">
+                        Favorite <span>Skills</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        My Skills
+                    </h2>
+
+                    <p class="skills__description">
+                        See fully what skills I have and perform,to dvelop the project for you.
+                    </p>
+
+                    <a href="#projects" class="button">See Projects</a>
+                </div>
+
+                <div class="skills__content">
+                    <ol class="skills__group">
+                        <li class="skills__item">HTML & CSS</li>
+                        <li class="skills__item">Javascript</li>
+                        <li class="skills__item">Bootstrap</li>
+                        <li class="skills__item">Jquery</li>
+                    </ol>
+
+                    <ol class="skills__group" start="5">
+                        <li class="skills__item">React</li>
+                        <li class="skills__item">Git & GitHub</li>
+                        <li class="skills__item">Jira</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===============SERVICES================ -->
+        <section class="services section" id="services">
+            <h3 class="section__subtitle">
+                My <span>Services</span>
+            </h3>
+
+            <h2 class="section__title">
+                What I do
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-layout-3-line services__icon"></i>
+                    <h2 class="services__title">Web Developer</h2>
+
+                    <p class="services__description">
+                        Development of custom interactive webpages.Using current technologies and libraries such as
+                        HTML,CSS,Javascript,Bootstrap,Jquery.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pen-nib-line services__icon"></i>
+                    <h2 class="services__title">ReactJs developer</h2>
+
+                    <p class="services__description">
+                        Design a performance optimised,responsive and scalable Webpages using ReactJS,a popular
+                        javascript library.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pantone-line services__icon"></i>
+                    <h2 class="services__title">UI Developer</h2>
+
+                    <p class="services__description">
+                        I offer design of web interfaces ,design made in figma , adobe xd.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ===============PROJECTS================ -->
+        <section class="projects section" id="projects">
+            <h3 class="section__subtitle">
+                My<span>Jobs</span>
+            </h3>
+
+            <h2 class="section__title">
+                Recent Projects
+            </h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <img src="assets/img/project-img-1.jpg" alt="projects image" class="projects__img" />
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern Website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-2.jpg" alt="projects image" class="projects__img" />
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern Website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-3.jpg" alt="projects image" class="projects__img" />
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern Website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-4.jpg" alt="projects image" class="projects__img" />
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern Website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-5.jpg" alt="projects image" class="projects__img" />
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern Website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/img/project-img-6.jpg" alt="projects image" class="projects__img" />
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern Website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+
+        <!-- ================CONTACT================ -->
+        <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+                Get In <span>Touch</span>
+            </h3>
+
+            <h2 class="section__title">
+                Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <input type="text" name="user_name" required placeholder="Enter your name"
+                            class="contact__input">
+                        <input type="email" name="user_email" required placeholder="Enter your email"
+                            class="contact__input">
+                    </div>
+
+
+                    <textarea name="user_project" required placeholder="Enter your message"
+                        class="contact__input"></textarea>
+
+                    <p class="contact__message" id="contact-message"></p>
+
+                    <button type="submit" class="button contact__button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==============FOOTER============= -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">
+                    Sarthak <span>Pandey</span>
+                </h1>
+
+                <h2 class="footer__education">
+                    Front-end Developer
+                </h2>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://github.com/SarthakPandey1998" target="_blank" class="footer__social-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/sarthak-pandey-246213196/" target="_blank"
+                    class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://wa.me/8299195743" target="_blank" class="footer__social-link">
+                    <i class="ri-whatsapp-line"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Sarthak.All rights Reserved
+            </span>
+        </div>
+    </footer>
+    
+    <!-- ================SCROLL UP================ -->
+     <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+     </a>
+
+
+
+
+
+
+
+
+    <!-- ==================SCROLLREVEAL================== -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- ==================EMAIL JS================== -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!-- ==================MAIN JS================== -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
